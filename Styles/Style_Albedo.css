@@ -1,0 +1,137 @@
+.albedo-container {
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.albedo-card {
+    transform-style: preserve-3d;
+    background: #C4C4C4;
+    min-height: 80vh;
+    width: 62vh;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 -20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.albedo{
+    min-height: 35vh;
+    display: flex;
+    align-items: baseline;
+    justify-items: left;
+
+}
+.albedo img{
+    width: 21rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+    
+}
+
+.albedo-square{
+    height: 30rem;
+    background: linear-gradient(
+        to left,
+        #12161a,
+        #ceded8
+    );
+    position: absolute;
+    top: 14px;
+    left: 33px;
+    width: 14rem;
+    border-radius: 2.5%;
+    z-index: 1;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.4);
+    transition: all 0.75s ease-out;
+
+}
+/* Racial level (border-level) */
+
+.albedo-border-level {
+    position: absolute;
+    top: 28rem;
+    right: 27px;
+    width: 17rem;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    align-items: center;
+    transition: all 0.75s ease-out;
+
+}
+
+.albedo-class1, .albedo-class2{
+	border: 1px solid #000000;
+	display: table-cell;
+	padding: 3px 10px;
+    column-span: 1;
+}
+.albedo-class1 {
+    columns: 3;
+    background-color:#ff000d;
+}
+.albedo-class2 {
+     columns: 7;
+     background-color: rgba(18, 148, 18, 0.7);
+}
+
+/* status */
+.albedo-hp-full {
+    width: 21rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+ .albedo-mp-full {
+    width: 8rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+ .albedo-phy-atk-full {
+    width: 18rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+.albedo-phy-def-full {
+    width: 20rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+.albedo-agility-full {
+    width: 12rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+
+ .albedo-mag-atk-full {
+    width: 9rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+
+ .albedo-mag-def-full {
+    width: 20rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+
+ .albedo-resist-full {
+    width: 19rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+
+ .albedo-special-full {
+    width: 18rem;
+    height: 10px;
+    background-color:#9c00cc;
+ }
+
+ /* small screens */
+ @media (max-width: 900px) {
+    .albedo-square {
+        width: 12rem;
+    }
+    .albedo img {
+        width: 18rem;
+    }
+}
