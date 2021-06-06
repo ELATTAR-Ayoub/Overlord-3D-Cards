@@ -1,8 +1,8 @@
 // Shalltear_Bloodfallen Card ---------------------
 
 //Movement Animation to Happen
-const Shalltear_Bloodfallen_card = document.querySelector(".Shalltear_Bloodfallen-card");
-const Shalltear_Bloodfallen_container = document.querySelector(".Shalltear_Bloodfallen-container");
+const Shalltear_Bloodfallen_card = document.querySelector(".card");
+const Shalltear_Bloodfallen_container = document.querySelector(".container");
 
 //Items
 const Shalltear_Bloodfallen = document.querySelector(".Shalltear_Bloodfallen img");

@@ -1,8 +1,8 @@
 // Albedo Card ---------------------
 
 //Movement Animation to Happen
-const albedo_card = document.querySelector(".albedo-card");
-const albedo_container = document.querySelector(".albedo-container");
+const albedo_card = document.querySelector(".card");
+const albedo_container = document.querySelector(".container");
 
 //Items
 const albedo = document.querySelector(".albedo img");
