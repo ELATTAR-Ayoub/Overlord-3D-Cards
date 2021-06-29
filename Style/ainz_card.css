@@ -1,0 +1,77 @@
+.upper-section .img-section .square{
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    width: 250px;
+    height: 550px;
+    background: linear-gradient(
+        to left,
+        rgba(68, 9, 134, 0.7),
+        rgba(6, 7, 58, 0.7)
+    );
+    z-index: 5;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.4);
+    transition: all 0.75s ease-out;
+
+}
+
+.upper-section .img-section img{
+    position: relative;
+    left: -5rem;
+    height: 35rem;
+    z-index: 10;
+    transition: all 0.75s ease-out;
+
+}
+
+.border-level-class1 {
+    columns: 4;
+    background-color:#ff000d;
+}
+
+.border-level-class2 {
+     columns: 6;
+     background-color: rgba(18, 148, 18, 0.7);
+}
+
+/* status bars */
+
+.bar {
+    background-color:#8560a8;
+    height: 10px;
+}
+
+.ainz-hp {
+    width: 57%;
+}
+
+.ainz-mp {
+    width: 120%;
+}
+
+.ainz-phyatk {
+    width: 35%;
+}
+
+.ainz-phydef {
+    width: 70%;
+}
+.ainz-agility {
+    width: 40%;
+}
+
+.ainz-magatk {
+    width: 90%;
+}
+
+.ainz-magdef {
+    width: 95%;
+}
+
+.ainz-resist {
+    width: 95%;
+}
+
+.ainz-special {
+    width: 100%;
+}
